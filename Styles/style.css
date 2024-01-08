@@ -1,0 +1,108 @@
+.banner-img {
+    background-image:
+        linear-gradient(to bottom, rgba(3, 3, 3, 0.868), rgba(99, 99, 99, 0.2)),
+        url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+
+    margin: 50px;
+
+}
+
+.banner-section {
+    align-items: center;
+
+    height: 600px;
+    color: #FFF;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.off {
+    text-align: center;
+}
+
+.party-scetion {
+    background-image:
+        linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+        url(../images/Vectorrr.png);
+    height: 600px;
+    margin: 50px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.party-header {
+    color: #FFF;
+    font-size: 64px;
+}
+
+.party-p {
+    font-weight: 400px;
+    font-size: 18px;
+    color: #FFFFFFCC;
+}
+
+.party-b {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.red-text {
+    color: red;
+}
+
+.address {
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    color: #070211;
+    font-size: 22px;
+    padding: 120px 0 120px 0;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF0000;
+    border: 0px;
+    border-radius: 8px;
+
+}
+
+.offer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 118px;
+    margin: 0px;
+    text-align: center;
+    padding-right:70px ;
+}
+
+.photo {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 15px 15px;
+    width: 364.844px;
+    height: 364.844px;
+}
+.new-year{
+    padding-left: 115px;
+}
+.images{
+    border-radius: 16px;
+    image-rendering: auto;
+}
