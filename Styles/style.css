@@ -1,3 +1,5 @@
+* {}
+
 .banner-img {
     background-image:
         linear-gradient(to bottom, rgba(3, 3, 3, 0.868), rgba(99, 99, 99, 0.2)),
@@ -10,7 +12,7 @@
 
 .banner-section {
     align-items: center;
-
+    border-radius: 15px;
     height: 600px;
     color: #FFF;
     text-align: center;
@@ -25,13 +27,32 @@
     text-align: center;
 }
 
+.deals {
+    color: #F00;
+    font-size: 50px;
+    font-weight: 500px;
+}
+
+.holiday {
+    color: #F00;
+    padding-top: 0px;
+    
+}
+
+.categories {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700px;
+
+}
+
 .party-scetion {
     background-image:
         linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
         url(../images/Vectorrr.png);
     height: 600px;
     margin: 50px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -68,7 +89,7 @@
     font-size: 22px;
     padding: 120px 0 120px 0;
     margin: 40px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .btn {
@@ -89,7 +110,7 @@
     padding: 120px 118px;
     margin: 0px;
     text-align: center;
-    padding-right:70px ;
+    padding-right: 70px;
 }
 
 .photo {
@@ -99,10 +120,27 @@
     width: 364.844px;
     height: 364.844px;
 }
-.new-year{
+
+.new-year {
     padding-left: 115px;
 }
-.images{
-    border-radius: 16px;
-    image-rendering: auto;
+
+.row {
+    display: flex;
+    border: 16px;
+    align-items: center;
+    justify-content: space-around;
+margin-left: 40px;
+margin-right: 40px;
+
+}
+
+.column {
+    
+padding: 10px;
+border-radius: 10px;
+}
+.column img{
+    height: 420px;
+    width: 420px;
 }
