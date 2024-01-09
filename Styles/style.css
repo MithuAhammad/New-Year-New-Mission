@@ -207,3 +207,25 @@
 .red-text h1{
     font-family: 'Merriweather';
 }
+.footer{
+    background-color: #070211;
+    color: #FFF;
+
+}
+
+.footer1{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+.icon>img{
+    
+    
+    
+}
+.sub{
+    display: flex;
+    justify-content: space-around;
+}
