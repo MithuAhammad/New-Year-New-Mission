@@ -1,4 +1,6 @@
-* {}
+* {
+    
+}
 
 .banner-img {
     background-image:
@@ -64,9 +66,10 @@
 .party-header {
     color: #FFF;
     font-size: 64px;
+    font-family: 'Merriweather';
 }
 
-.party-p {
+.party-p {font-family: 'Inter Tight', sans-serif;;
     font-weight: 400px;
     font-size: 18px;
     color: #FFFFFFCC;
@@ -136,14 +139,14 @@
 }
 
 .column {
-
+    width: ;
     padding: 10px;
     border-radius: 10px;
 }
 
 .column img {
-    height: 420px;
-    width: 420px;
+    height: 320px;
+    width: 360px;
 }
 
 .search {
@@ -167,6 +170,7 @@
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     border: none;
+    
 
 }
 .btn-1{
@@ -187,17 +191,19 @@
 }
     
 .subscribe{
+    font-family: ;
     background-color: #FF00000D;
     padding: 100px;
     margin: 50px;
 }
 .newsletter{
     text-align: center;
+    font-family: 'Merriweather';
 }
 .newsletter > img{
     height: 150px;
     width: 150px;
 }
-.mithu{
-    font-size: ;
+.red-text h1{
+    font-family: 'Merriweather';
 }
